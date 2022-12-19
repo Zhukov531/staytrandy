@@ -149,3 +149,53 @@ a{
     padding: 6px;
     width: 250px;
 }
+
+.section4 {
+}
+.s4-content {
+    padding: 30px 60px;
+}
+.s4-h1 {
+    text-align: center;
+}
+.s4-cont-block {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.s4-text {
+    max-width: 50%;
+}
+.s4-h2 {
+    font-size: 20px;
+}
+.s4-p {
+    font-size: 18px;
+    font-weight: 100;
+    max-width: 50%;
+}
+.s4-links{
+    margin-top: 30px;
+}
+.s4-links img{
+    margin-right: 15px;
+    max-width: 50px;
+}
+.s4-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s4-form input{
+    padding: 15px 15px;
+    min-width: 300px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.s4-btn { 
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background: transparent;
+}
