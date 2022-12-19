@@ -107,34 +107,45 @@ a{
 #img2{
     width: 50px;
 }
-.s2-text-text {
-    margin-left: 20px;
-
+.s2-text-text{
+    margin-left: 30px;
 }
-
-.section3 {
+.section3{
     background: #101010;
+    color: white;
     padding: 30px 60px;
+}
+.s3-content {
+
 }
 .s3-h1 {
     text-align: center;
 }
-.s3-content {
+.s3-content-block {
+    margin-top: 100px;
     display: flex;
+    justify-content: space-around;
+    /* Maybe between */
 }
-.s-text {
+.s3-text {
+    width: 40%;
 }
-.s3-text-h1{
+.s3-h2 {
+    font-size: 18px;
+}
+.s3-p{
+    max-width: 60%;
+    font-weight: 100;
+}
+.s3-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
     
 }
-.s3-p {
-}
-.s3-btn {
-}
-.s3-btn-btn {
-}
-.s3-img {
-}
-.s3-img-img {
-    width: 150px;
+.s3-img1{
+    padding: 6px;px;
+    width: 250px;
 }
