@@ -79,9 +79,6 @@ a{
     .menu{
         font-size: 15px;
     }
-    .s1-precontent{
-
-    }
     .s1-content{
         flex-direction: column;
 
@@ -108,8 +105,8 @@ a{
 }
 
 .section2 {
-    padding: 30px 60px;
-    
+    padding: 70px 60px;
+
 }
 .s2-h1 {
     text-align: center;
@@ -132,7 +129,7 @@ a{
 .s2-list-text {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     max-width: 70%;
 
 }
@@ -185,26 +182,24 @@ a{
 .section3{
     background: #101010;
     color: white;
-    padding: 30px 60px;
-}
-.s3-h1 {
-    text-align: center;
+    padding: 70px 60px;
 }
 .s3-content-block {
-    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     /* Maybe between */
+    align-items: center;
+}
+.s3-h1 {
+    text-align: left;
 }
 .s3-text {
     max-width: 40%;
 }
-.s3-h2 {
-    font-size: 18px;
-}
 .s3-p{
     max-width: 60%;
     font-weight: 100;
+    margin-top: 70px;
 }
 .s3-imgs {
     display: flex;
@@ -218,7 +213,14 @@ a{
     padding: 6px;
     max-width: 250px;
 }
-
+.s3-btn{
+    background: transparent;
+    border: 1px white solid;
+    padding: 10px 11%;
+    margin-right: 70px;
+    color: white;
+    margin-top: 20px;
+    }
 @media screen and (max-width: 430px){
     .section3{
         padding: 20px 40px;
@@ -259,13 +261,14 @@ a{
 }
 
 .s4-content {
-    padding: 30px 60px;
+    padding: 70px 60px;
+    padding-bottom: 140px;
 }
 .s4-h1 {
     text-align: center;
 }
 .s4-cont-block {
-    margin-top: 60px;
+    margin-top: 70px;
     display: flex;
     justify-content: space-around;
 }
@@ -276,12 +279,12 @@ a{
     font-size: 20px;
 }
 .s4-p {
-    font-size: 18px;
-    font-weight: 100;
+    font-size: 16px;
+    font-weight: 400;
     max-width: 50%;
 }
 .s4-links{
-    margin-top: 30px;
+    margin-top: 70px;
 }
 .s4-links img{
     margin-right: 15px;
@@ -313,49 +316,6 @@ a{
 }
 
 
-#zatemnenie {
-        background: rgba(46, 44, 44, 0.5);
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: none;
-        scroll-behavior: smooth;
-      }
-      #okno {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 350px;
-        height: 100px;
-        text-align: center;
-        padding: 45px;
-        border-radius: 15px;
-        color: #000;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        margin: auto;
-        background: #fff;
-        font-size: 22px;
-
-      }
-      #zatemnenie:target {display: block;}
-      .close {
-        display: inline-block;
-        border: 1px solid #000;
-        color: #000;
-        padding: 5px 15px;
-        text-decoration: none;
-        background: #fff;
-        font-size: 16px;
-        cursor: pointer;
-        border-radius: 15px;
-      }
 
         /* добавить плавный скролл */
         /* Обработчик формы */
