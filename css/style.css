@@ -15,6 +15,7 @@ a{
     color: white;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 .menu {
     display: flex;
@@ -67,10 +68,57 @@ a{
     margin-right: 70px;
     color: white;
 }
-.s1-img1 {
-    width: 900px;
-}
 
+.s1-img1 {
+    max-width: 900px;
+    position: absolute;
+    /* top: 80px; */
+    left: 500px;
+
+}
+.s1-img2{
+    max-width: 900px;
+    position: relative;
+    top: 200px;
+    left: 50px;
+}
+@media screen and (max-width: 390px){
+    .header{
+        padding: 50px;
+    }
+    .menu{
+    }
+    .s1-precontent{
+    }
+    .s1-content{
+
+    }
+    .s1-p{
+        max-width: 50%;
+    }
+    .s1-btns{
+
+        display: flex;
+        justify-content: center;
+    }
+    .s1-btn1{
+        margin-right: 0px;
+        padding: 10px 30px;
+    }
+    .s1-img{
+        margin-top: 70px;
+    }
+    .s1-img1{
+        width: 250px;
+        top: 350px;
+        left: 25px;
+
+    }
+    .s1-img2{
+        max-width: 200px;
+        top: 45px;
+    }
+}
 @media screen and (max-width: 430px) {
     .header{
         padding: 20px;
@@ -96,11 +144,15 @@ a{
     }
     .s1-btn1{
         margin-right: 50px;
-        font-size: 14px;
+        font-size: 12px;
     }
     .s1-img1{
         margin-top: 50px;
-        max-width: 380px;
+        max-width: 400px;
+        left: 0px;
+    }
+    .s1-img2{
+        max-width: 300px;
     }
 }
 
@@ -144,6 +196,10 @@ a{
 }
 .s2-text-text{
     margin-left: 30px;
+    
+}
+.s2-list-text{
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 430px){
@@ -189,6 +245,7 @@ a{
     justify-content: space-around;
     /* Maybe between */
     align-items: center;
+
 }
 .s3-h1 {
     text-align: left;
@@ -207,7 +264,7 @@ a{
     align-items: center;
     justify-content: center;
     max-width: 50%;
-    
+    padding-bottom: 30px;
 }
 .s3-img1{
     padding: 6px;
@@ -263,6 +320,7 @@ a{
 .s4-content {
     padding: 70px 60px;
     padding-bottom: 140px;
+
 }
 .s4-h1 {
     text-align: center;
@@ -271,6 +329,7 @@ a{
     margin-top: 70px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .s4-text {
     max-width: 50%;
@@ -282,6 +341,11 @@ a{
     font-size: 16px;
     font-weight: 400;
     max-width: 50%;
+}
+.s4-phone{
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 24px;
 }
 .s4-links{
     margin-top: 70px;
@@ -297,7 +361,7 @@ a{
 }
 .s4-form input{
     padding: 15px 15px;
-    min-width: 300px;
+    width: 300px;
     margin-bottom: 15px;
     border: 1px solid black;
     border-radius: 15px;
@@ -318,7 +382,6 @@ a{
 
 
         /* добавить плавный скролл */
-        /* Обработчик формы */
 
         @media screen and (max-width: 430px){
             .s4-cont-block{
@@ -342,4 +405,134 @@ a{
             .s4-links{
                 margin: 30px 0;
             }
+            .s4-btn{
+                color: black;
+            }
         }
+
+
+
+
+
+@media screen and (max-width: 375px){
+    .s1-content{
+        margin: 0;
+        padding: 0;
+    }
+    .s1-p{
+        max-width: 80%;
+    }
+}
+
+
+@media screen and (min-width:700px) and (max-width: 825px){
+    .s1-precontent{
+        align-items: center;
+    }
+    .s1-content{
+        flex-direction: column; 
+    }
+    .s1-text{
+        /* justify-content: center; */
+        align-items: center;
+
+    }
+    .s1-img{
+        width: 100%;
+    }
+    .s1-img1{
+        max-width: 750px;
+        left: 0px;
+    }
+    .s1-img2{
+        max-width: 600px;
+        left: 200px;
+    }
+    .s1-btns{
+        justify-content: flex-end;
+        margin-right: 0;
+    }
+
+    .s2-img{
+        max-width: 50%;
+    }
+    .s2-list-text{
+        font-size: 14px;
+    }
+    .section3{
+        padding: 30px;
+    }
+    .s3-content-block{
+        flex-direction: column;
+    }
+    .s3-text{
+        max-width: 100%;
+    }
+    .s3-imgs{
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .s4-form input{
+        max-width: 200px;
+    }
+}
+
+@media screen and (min-width: 830px) and (max-width: 1024px){
+    .s1-precontent{
+        align-items: center;
+    }
+    .s1-content{
+        flex-direction: column; 
+    }
+    .s1-text{
+        /* justify-content: center; */
+        align-items: center;
+
+    }
+    .s1-img{
+        width: 100%;
+    }
+    .s1-img1{
+        max-width: 750px;
+        left: 0px;
+    }
+    .s1-img2{
+        max-width: 600px;
+        left: 200px;
+    }
+    .s1-btns{
+        justify-content: flex-end;
+        margin-right: 0;
+    }
+
+    .s2-img{
+        max-width: 50%;
+    }
+    .s2-list-text{
+        font-size: 14px;
+    }
+    .section3{
+        padding: 30px;
+    }
+    .s3-content-block{
+        flex-direction: column;
+    }
+    .s3-text{
+        max-width: 100%;
+    }
+    .s3-p{
+        max-width: 50%;
+    }
+    .s3-imgs{
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1800px){
+    .s1-img1{
+        left: 35%;
+    }
+}
